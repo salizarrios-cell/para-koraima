@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffe4ed;
+    font-family: Arial, sans-serif;
+}
+
+.tarjeta {
+    width: 100%;
+    max-width: 450px;
+    padding: 25px;
+    text-align: center;
+    background: white;
+    border-radius: 25px;
+    box-shadow: 0 5px 20px #eab0c3;
+}
+
+h1 {
+    color: #e75480;
+    font-size: 28px;
+}
+
+h2 {
+    color: #d94376;
+}
+
+p {
+    color: #85566a;
+    line-height: 1.6;
+}
+
+button {
+    display: inline-block;
+    margin: 7px 4px;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 15px;
+    background: #f58bad;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e75480;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #f5a3bd;
+    border-radius: 12px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    resize: vertical;
+}
+
+.foto {
+    display: block;
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-top: 20px;
+    border-radius: 18px;
+    border: 3px solid #ffc1d5;
+}
+
+#pregunta {
+    margin-top: 25px;
+    color: #c74370;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.mensaje {
+    margin-top: 22px;
+    padding: 15px;
+    background: #fff0f5;
+    border-radius: 15px;
+    color: #d6336c;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#final {
+    margin-top: 20px;
+}

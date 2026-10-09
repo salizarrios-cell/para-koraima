@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para ti, Koraima</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="tarjeta">
+        <h1>Para ti, Koraima</h1>
+        <p>Responde estas preguntitas, mi vida.</p>
+
+        <div id="pregunta"></div>
+        <div id="respuestas"></div>
+        <div id="mensaje"></div>
+        <div id="siguiente"></div>
+
+        <div id="final" style="display:none;">
+            <h2> ya Terminaste de responder , mi vida</h2>
+            <p>Te amo mucho ,mi vida.</p>
+            <p>Esta foto es un recuerdo bonito de nosotros juntos mua </p>
+
+            <img src="nosotros.jpg"
+                 alt="Nuestra foto juntos"
+                 class="foto"
+                 onerror="this.style.display='none';
+                 document.getElementById('aviso-foto').style.display='block';">
+
+            <p id="aviso-foto" style="display:none;">
+                Coloca nuestra foto en la carpeta con el nombre nosotros.jpg
+            </p>
+
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
